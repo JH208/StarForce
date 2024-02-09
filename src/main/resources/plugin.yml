@@ -1,0 +1,19 @@
+name: StarForcePlugin
+version: '${version}'
+main: com.lio_e28.starforceplugin.StarForcePlugin
+api-version: '1.20'
+commands:
+  givestarforce:
+    description: 스타포스 아이템 지급
+    
+  spawnsmithingnpc:
+    description: 광물 거래 npc 소환
+
+  spawnclericnpc:
+    description: 성직자 거래 npc소환
+
+  removenpc:
+    description: npc 제거
+
+  givescroll:
+    description: 광화의 주문서 지급
