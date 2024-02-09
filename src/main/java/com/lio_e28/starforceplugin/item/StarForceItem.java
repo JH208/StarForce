@@ -4,10 +4,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import static com.lio_e28.starforceplugin.item.ItemManager.buildItem;
 
 public class StarForceItem {

@@ -14,7 +14,7 @@ import static com.lio_e28.starforceplugin.item.StarForceItem.Scroll;
 
 public class ClericNpc {
 
-    private Villager npc;
+    private final Villager npc;
 
     // 생성자: 위치와 이름을 전달받아 NPC를 생성함
     public ClericNpc(Location location, String name) {
@@ -46,11 +46,7 @@ public class ClericNpc {
         recipe3.addIngredient(ingredient3);
         recipes.add(recipe3);
 
-        npc.setRecipes(recipes); // NPC에 거래 목록 설정
+        npc.setRecipes(recipes);
     }
 
-    // NPC를 제거하는 메서드
-    public void remove() {
-        npc.remove();
-    }
 }

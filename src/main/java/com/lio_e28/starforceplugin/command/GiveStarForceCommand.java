@@ -1,7 +1,6 @@
 package com.lio_e28.starforceplugin.command;
 
 import com.lio_e28.starforceplugin.item.StarForceItem;
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
